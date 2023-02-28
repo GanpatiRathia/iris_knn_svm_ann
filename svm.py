@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv('Iris.csv')
+dataset = pd.read_csv('data/Iris.csv')
 
 # We can get a quick idea of how many instances (rows) and how many attributes (columns) the data contains with the shape property.
 print("Shape of dataset : \n",dataset.shape)

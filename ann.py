@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 #Load Data and review content
-iris_data = pd.read_csv("Iris.csv")
+iris_data = pd.read_csv("/data/Iris.csv")
 
 print("\nLoaded Data :\n------------------------------------")
 print(iris_data.head())
